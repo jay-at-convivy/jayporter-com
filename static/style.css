@@ -1,0 +1,210 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #f9f9f9;
+    color: #555;
+}
+
+.container {
+    margin: 5%;
+    line-height: 1.6;
+    padding-bottom: 50px;
+    width: 90%;
+}
+
+.containerleft {
+    margin: 8%;
+    line-height: 1.6;
+    max-width: 500px;
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+.accolade {
+    color: #986837;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-description {
+    margin-left: 120px;
+}
+.profile {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.profile-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.small-profile-img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.book-cover-img {
+    width: 180px;
+    display: block;
+    margin: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+a {
+    text-decoration: none;
+}
+.small-profile {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.small-profile-title{
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.small-profile-title:link{
+    color: #555;
+}
+
+.small-profile-title:hover{
+    color: #555;
+}
+
+.pin-icon {
+    max-width: 13px;
+}
+
+.location-text {
+    font-size:.85rem;
+    color: #777;
+   vertical-align: top;
+}
+
+.summary {
+    font-size: 1rem;
+    max-width: 350px;
+    display:inline-block;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+.technical-summary {
+    font-size: 1rem;
+}
+
+.technical-summary-link:visited {
+    color:#60acac;
+}
+
+.technical-summary-link:hover {
+    color: #007b7b;
+}
+
+.technical-summary-link {
+    color: #179f9f;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.work-samples-title {
+    font-size: 1.8rem;
+    margin-top: 4rem; /* Adjust the margin-top value as needed */
+    margin-bottom: 1.2rem;
+}
+
+.work-samples-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.work-sample-link {
+    margin-top: 2.0rem;
+    color: #179f9f;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.work-sample-link:hover {
+    color: #007b7b;
+}
+
+.work-sample-description {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2.0rem;
+}
+
+.work-sample-link:visited {
+    color:#60acac;
+}
+
+.work-sample-intro {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Style footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+}
+
+.footer-content {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer a {
+    color: #555;
+}
+
+.footer a:hover {
+    color: #111;
+}
