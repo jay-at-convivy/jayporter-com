@@ -98,6 +98,10 @@ a {
     color: #555;
 }
 
+.small-profile-title a {
+    color: inherit;
+}
+
 .small-profile-title:link{
     color: #555;
 }
