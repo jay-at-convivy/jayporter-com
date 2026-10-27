@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    margin: 5%;
+    margin: 2rem 5% 0;
     line-height: 1.6;
     padding-bottom: 50px;
     width: 90%;
@@ -40,7 +40,11 @@ h1, h2, h3 {
 }
 .profile {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+}
+
+.profile h2:not(.profile-title) {
+    margin: 1.25rem 0 0.5rem;
 }
 
 .profile-title {
@@ -70,9 +74,7 @@ a {
 .summary {
     font-size: 1rem;
     max-width: 350px;
-    display:inline-block;
-    margin-left: 20%;
-    margin-right:20%;
+    margin: 0 auto 0.9rem;
 }
 
 .work-samples-title {
