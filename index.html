@@ -25,7 +25,20 @@
         </div>
     </div>
     <div class="text">
-        <p class="contact">Contact me at my first name at hellojayporter dot com.</p>
+        <p class="contact" id="contact">Contact me at my first name at hellojayporter dot com.</p>
+        <script>
+            // Assembled here so the address never appears in the page source for harvesters to scrape.
+            (function () {
+                var address = ['jay', 'hellojayporter.com'].join('@');
+                var p = document.getElementById('contact');
+                var a = document.createElement('a');
+                a.href = 'mailto:' + address;
+                a.textContent = address;
+                p.textContent = 'Email me at ';
+                p.appendChild(a);
+                p.appendChild(document.createTextNode('.'));
+            })();
+        </script>
         <hr aria-hidden="true">
         <div class="bio">
             <p>I'm a Director of Engineering at <a href="https://www.amperon.co/">Amperon</a>.</p>
